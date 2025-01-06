@@ -9,20 +9,20 @@
 
 <body>
 
-	<h1>여러분을 환영합니다!!</h1>
-	<a>
-	<img src="https://github.com/user-attachments/assets/48a4fb3b-aeae-4b8f-99a9-f35cbc72bd48">
-	</a>
+  	<button type="button">
+	  <img src="https://github.com/user-attachments/assets/48a4fb3b-aeae-4b8f-99a9-f35cbc72bd48" alt="" onclick="alertDialogBox()" >
+    </button>
+  
 
 	<script>
-		var domain = "https://";
-		var iconUrl = "https://ads-partners.coupang.com/banners/827742?subId=&traceId=V0-301-879dd1202e5c73b2-I827742&w=728&h=90";
-		var title = "지니쿠팡";
-		var url = "https://link.coupang.com/a/b6Yx9e";
-
       
 		function alertDialogBox() {
-			alert(domain + " " + iconUrl + " " + title + " " + url + " ");
+
+			var domain = "https://";
+			var iconUrl = "https://ads-partners.coupang.com/banners/827742?subId=&traceId=V0-301-879dd1202e5c73b2-I827742&w=728&h=90";
+			var title = "지니쿠팡";
+			var url = "https://link.coupang.com/a/b6Yx9e";
+          
 			util_addShoutCut(url, iconUrl, title); 
 		}
 
