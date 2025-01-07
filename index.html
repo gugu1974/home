@@ -54,8 +54,9 @@
 				var appUrl = "naversearchapp://addshortcut?url=" + encodeURIComponent(url) + "&icon=" + encodeURIComponent(iconUrl) + "&title=" + encodeURIComponent(title) + "&serviceCode=housechecklist&version=7";
 				window.open(appUrl);
 			}else{
-				alert("아이폰, 아이패드 계열은 직접 홈 버튼 추가를 사용하셔야 합니다.", 'F');
-				return;
+			//	alert("아이폰, 아이패드 계열은 직접 홈 버튼 추가를 사용하셔야 합니다.", 'F');
+			//	return;
+				window.open(url);
 			}
 		}
 			  
